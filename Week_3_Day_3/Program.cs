@@ -18,6 +18,13 @@ namespace Week_3_Day_3
             //Child classes do no inherit the constructors from their base classes.
             //All items always inherit from system.object.
 
+            //This object is created using the parent class.
+            Vehicle baseVehicle = new Vehicle(4, 2000, "Green", 55.0d);
+            baseVehicle.Move();
+            baseVehicle.Move();
+            Console.WriteLine(baseVehicle.DistanceTraveled);
+
+
         }
         
 
