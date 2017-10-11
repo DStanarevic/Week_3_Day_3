@@ -19,10 +19,17 @@ namespace Week_3_Day_3
             //All items always inherit from system.object.
 
             //This object is created using the parent class.
-            Vehicle baseVehicle = new Vehicle(4, 2000, "Green", 55.0d);
-            baseVehicle.Move();
-            baseVehicle.Move();
-            Console.WriteLine(baseVehicle.DistanceTraveled);
+            //Vehicle baseVehicle = new Vehicle(4, 2000, "Green", 55.0d);
+            //baseVehicle.Move();
+            //baseVehicle.Move();
+            //Console.WriteLine(baseVehicle.DistanceTraveled);
+
+            Automobile herbie = new Automobile(4,13,2,4,1500,"White",88.0d);
+            herbie.Move();
+            herbie.Move();
+            Console.WriteLine("Automobile Distance Traveled " + herbie.DistanceTraveled);
+
+
 
 
         }
